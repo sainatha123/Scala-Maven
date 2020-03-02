@@ -8,8 +8,8 @@
                </check>
                <check enabled="true" class="org.scalastyle.file.FileLineLengthChecker" level="warning">
                <parameters>
-                 <parameter name="maxLineLength">50</parameter>
-                 <parameter name="tabSize">5</parameter>
+                 <parameter name="maxLineLength">100</parameter>
+                 <parameter name="tabSize">2</parameter>
                  <parameter name="ignoreImports">true</parameter>
                </parameters>
                </check>
