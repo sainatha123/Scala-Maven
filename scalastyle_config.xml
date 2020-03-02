@@ -1,61 +1,61 @@
 <scalastyle>
- <name>Scalastyle standard configuration</name>
+<name>Scalastyle standard configuration</name>
 
-	<check level="warning" class="org.scalastyle.file.FileLengthChecker" enabled="true">
-	  <parameters>
-	   <parameter name="maxFileLength"><![CDATA[800]]></parameter>
-	  </parameters>
-	 </check>
-	<check enabled="true" class="org.scalastyle.file.FileLineLengthChecker" level="warning">
-	 <parameters>
-	  <parameter name="maxLineLength">1000</parameter>
-	  <parameter name="tabSize">2</parameter>
-	  <parameter name="ignoreImports">true</parameter>
-	 </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.ClassNamesChecker" enabled="true">
-	  <parameters>
-	   <parameter name="regex"><![CDATA[[A-Z][A-Za-z]*]]></parameter>
-	  </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.ObjectNamesChecker" enabled="true">
-	  <parameters>
-	   <parameter name="regex"><![CDATA[[A-Z][A-Za-z]*]]></parameter>
-	  </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.PackageObjectNamesChecker" enabled="true">
-	  <parameters>
-	   <parameter name="regex"><![CDATA[^[a-z][A-Za-z]*$]]></parameter>
-	  </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.IllegalImportsChecker" enabled="true">
-	  <parameters>
-	   <parameter name="illegalImports"><![CDATA[sun._,java.awt._]]></parameter>
-	  </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.ParameterNumberChecker" enabled="true">
-	  <parameters>
-	   <parameter name="maxParameters"><![CDATA[8]]></parameter>
-	  </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.NumberOfTypesChecker" enabled="true">
-	  <parameters>
-	   <parameter name="maxTypes"><![CDATA[30]]></parameter>
-	  </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.CyclomaticComplexityChecker" enabled="true">
-	  <parameters>
-	   <parameter name="maximum"><![CDATA[10]]></parameter>
-	  </parameters>
-	</check>
-	<check level="warning" class="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" enabled="true">
-	  <parameters>
-	   <parameter name="maxMethods"><![CDATA[30]]></parameter>
-	  </parameters>
-	</check>
-	<check enabled="true" class="org.scalastyle.scalariform.UnderscoreImportChecker" level="warning">
-	 <parameters>
-	  <parameter name="ignoreRegex">collection\.JavaConverters\._|scala\.concurrent\.duration\._</parameter>
-	 </parameters>
-	</check>
+               <check level="warning" class="org.scalastyle.file.FileLengthChecker" enabled="true">
+                 <parameters>
+                  <parameter name="maxFileLength"><![CDATA[800]]></parameter>
+                 </parameters>
+               </check>
+               <check enabled="true" class="org.scalastyle.file.FileLineLengthChecker" level="warning">
+               <parameters>
+                 <parameter name="maxLineLength">100</parameter>
+                 <parameter name="tabSize">2</parameter>
+                 <parameter name="ignoreImports">true</parameter>
+               </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.ClassNamesChecker" enabled="true">
+                 <parameters>
+                  <parameter name="regex"><![CDATA[[A-Z][A-Za-z]*]]></parameter>
+                 </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.ObjectNamesChecker" enabled="true">
+                 <parameters>
+                  <parameter name="regex"><![CDATA[[A-Z][A-Za-z]*]]></parameter>
+                 </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.PackageObjectNamesChecker" enabled="true">
+                 <parameters>
+                  <parameter name="regex"><![CDATA[^[a-z][A-Za-z]*$]]></parameter>
+                 </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.IllegalImportsChecker" enabled="true">
+                 <parameters>
+                  <parameter name="illegalImports"><![CDATA[sun._,java.awt._]]></parameter>
+                 </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.ParameterNumberChecker" enabled="true">
+                 <parameters>
+                  <parameter name="maxParameters"><![CDATA[8]]></parameter>
+                 </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.NumberOfTypesChecker" enabled="true">
+                 <parameters>
+                  <parameter name="maxTypes"><![CDATA[30]]></parameter>
+                 </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.CyclomaticComplexityChecker" enabled="true">
+                 <parameters>
+                  <parameter name="maximum"><![CDATA[10]]></parameter>
+                 </parameters>
+               </check>
+               <check level="warning" class="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" enabled="true">
+                 <parameters>
+                  <parameter name="maxMethods"><![CDATA[30]]></parameter>
+                 </parameters>
+               </check>
+               <check enabled="true" class="org.scalastyle.scalariform.UnderscoreImportChecker" level="warning">
+               <parameters>
+                 <parameter name="ignoreRegex">collection\.JavaConverters\._|scala\.concurrent\.duration\._</parameter>
+               </parameters>
+               </check>
 </scalastyle>
