@@ -238,8 +238,8 @@
                                                               <failOnViolation>true</failOnViolation>
                                                               <includeTestSourceDirectory>true</includeTestSourceDirectory>
                                                               <failOnWarning>false</failOnWarning>
-                                                              <sourceDirectory>${project.basedir}/src/main/scala/progscala3/sourceDirectory>
-                                                              <testSourceDirectory>${project.basedir}/src/test/scala/progscala3/</testSourceDirectory>
+                                                              <sourceDirectory>${project.basedir}/src/main/scala/progscala3</sourceDirectory>
+                                                              <testSourceDirectory>${project.basedir}/src/test/scala/progscala3</testSourceDirectory>
                                                               <configLocation>${project.basedir}/scalastyle_config.xml</configLocation>
                                                               <outputFile>${project.basedir}/scalastyle-output.xml</outputFile>
                                                               <outputEncoding>UTF-8</outputEncoding>
